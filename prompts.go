@@ -11,15 +11,15 @@ import (
 var agents = []string{
 	"claude-code",
 	"opencode",
+	"cursor",
 	"vscode",
-	"jetbrains",
 }
 
 var agentDirs = map[string]string{
 	"claude-code": ".claude",
 	"opencode":   ".opencode",
+	"cursor":     ".cursor",
 	"vscode":     ".vscode",
-	"jetbrains":  ".idea",
 }
 
 // PromptModel is the Bubble Tea model for the scaffold prompts
