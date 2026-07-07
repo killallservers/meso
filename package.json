@@ -1,0 +1,22 @@
+{
+  "name": "meso",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "go build -ldflags='-s -w' -o meso",
+    "dev": "go run main.go",
+    "vet": "go vet ./..."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.2",
+    "@types/bun": "^1.3.14",
+    "@types/react": "^19.2.17",
+    "@typescript/native-preview": "^7.0.0-dev.20260421.2",
+    "react-devtools-core": "^7.0.1"
+  },
+  "dependencies": {
+    "ink": "^7.1.0",
+    "react": "^19.2.7"
+  }
+}

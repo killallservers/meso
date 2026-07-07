@@ -1,0 +1,12 @@
+# Build artifacts
+meso
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+vendor/
+
+# macOS
+.DS_Store
